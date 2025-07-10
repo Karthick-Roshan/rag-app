@@ -31,7 +31,7 @@ A minimal, modular backend application that performs **semantic search** over do
 
 ---
 
-# ⚙️ Setup Instructions
+# Setup Instructions
 
 ### 1. Clone the Repository
 
