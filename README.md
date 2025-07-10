@@ -1,4 +1,4 @@
-# RAG App – Retrieval-Augmented Generation with FastAPI, ChromaDB & Gemini
+## RAG App – Retrieval-Augmented Generation with FastAPI, ChromaDB & Gemini
 
 A minimal, modular backend application that performs **semantic search** over documents using a Retrieval-Augmented Generation (RAG) pipeline powered by:
 
@@ -9,7 +9,7 @@ A minimal, modular backend application that performs **semantic search** over do
 
 ---
 
-# Features
+## Features
 
 - Upload PDF documents via API
 - Extract and chunk document text
@@ -19,7 +19,7 @@ A minimal, modular backend application that performs **semantic search** over do
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 | Layer       | Tool                         |
 |-------------|------------------------------|
@@ -31,7 +31,7 @@ A minimal, modular backend application that performs **semantic search** over do
 
 ---
 
-# Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -43,13 +43,14 @@ pip install -r requirements.txt
 
 ```
 
-# Create a .env file:
-
+## Create a .env file:
+```
 GOOGLE_API_KEY=your_gemini_api_key_here
 MODEL_NAME=all-MiniLM-L6-v2
 CHROMA_COLLECTION=rag_collection
+```
 
-# Run the App
+## Run the App
 
 ```bash
 uvicorn app.main:app --reload
