@@ -31,38 +31,6 @@ A minimal, modular backend application that performs **semantic search** over do
 
 ---
 
-# Project Structure
-
-rag-app/
-│
-├── app/
-│ ├── main.py 
-│ ├── config.py   
-│ │
-│ ├── routers/ 
-│ │ ├── upload.py 
-│ │ ├── query.py 
-│ │
-│ ├── services/ 
-│ │ ├── file_loader.py 
-│ │ ├── chunker.py 
-│ │ ├── embedder.py 
-│ │ ├── retriever.py 
-│ │ ├── generator.py 
-│ │
-│ ├── db/
-│ │ ├── chroma_client.py 
-│
-├── data/
-│ ├── uploads/ 
-│ ├── processed/ # (Optional) 
-│
-├── requirements.txt 
-├── .env # Environment variables
-└── README.md 
-
----
-
 # ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
